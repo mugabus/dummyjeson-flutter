@@ -38,6 +38,7 @@ class _homeState extends State<home> {
                  children: [
                    Text(products[index].title,style: TextStyle(fontSize: 20.0)),
                    Text(products[index].description),
+                   Image.network(products[index].thumbnail)
                  ],
                ),
              );
